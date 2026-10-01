@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUSPIFY | Bring Future Through Tech</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANIMATED BACKGROUND ===== -->
+  <div class="bg-anim">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- ===== CURSOR GLOW ===== -->
+  <div class="cursor-glow"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">
+        <span class="logo-icon">
+          <i class="fas fa-cube"></i>
+        </span>
+        <span class="logo-text">AUSPIFY</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#why">Why Us</a>
+        <a href="#process">Process</a>
+        <a href="#domains">Domains</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a href="#cta" class="btn btn-primary nav-cta">
+        <span>Get Started</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+
+      <div class="hero-content">
+        <span class="eyebrow reveal">
+          <span class="dot"></span>
+          BRING FUTURE THROUGH TECH
+        </span>
+
+        <h1 class="reveal">
+          Build Your <span class="gradient-text">Skills</span>,<br />
+          Shape Your <span class="gradient-text typed-wrap">
+            <span class="typed">Career</span>
+          </span>
+        </h1>
+
+        <p class="hero-sub reveal">
+          Learn practical skills, complete structured assignments, earn a
+          certificate upon meeting the completion requirements, and prepare
+          for your next career opportunity.
+        </p>
+
+        <ul class="hero-checks reveal">
+          <li>
+            <span class="check-icon"><i class="fas fa-check"></i></span>
+            <div><strong>Practical Learning</strong><br /><span>Learn by doing</span></div>
+          </li>
+          <li>
+            <span class="check-icon"><i class="fas fa-check"></i></span>
+            <div><strong>Complete & Get Certified</strong><br /><span>Showcase your skills</span></div>
+          </li>
+          <li>
+            <span class="check-icon"><i class="fas fa-check"></i></span>
+            <div><strong>Career Focused</strong><br /><span>Prepare for opportunities</span></div>
+          </li>
+        </ul>
+
+        <div class="hero-buttons reveal">
+          <a href="#cta" class="btn btn-primary btn-large shine">
+            <i class="fas fa-rocket"></i>
+            <span>Start Your Journey</span>
+          </a>
+          <a href="#process" class="btn btn-outline btn-large">
+            <i class="fas fa-play"></i>
+            <span>How It Works</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-orbit">
+          <div class="orbit-badge badge-1"><i class="fas fa-code"></i> Web Dev</div>
+          <div class="orbit-badge badge-2"><i class="fas fa-brain"></i> AI / ML</div>
+          <div class="orbit-badge badge-3"><i class="fas fa-chart-line"></i> Data</div>
+          <div class="orbit-badge badge-4"><i class="fas fa-palette"></i> UI / UX</div>
+          <div class="orbit-ring"></div>
+          <div class="orbit-ring ring-2"></div>
+        </div>
+
+        <div class="hero-card tilt">
+          <div class="hero-card-inner">
+            <div class="card-top">
+              <span class="pill pill-cyan"><i class="fas fa-fire"></i> TRENDING</span>
+              <span class="pill pill-violet">Web Development</span>
+            </div>
+            <div class="card-body">
+              <div class="big-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Learn · Build · Grow</h3>
+              <p>Structured tasks, real feedback, career-ready portfolio.</p>
+            </div>
+            <div class="card-stats">
+              <div><h4 data-count="500">0</h4><span>Interns</span></div>
+              <div><h4 data-count="12">0</h4><span>Domains</span></div>
+              <div><h4>4.9★</h4><span>Rating</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#why" class="scroll-indicator">
+      <span></span>
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== TICKER ===== -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>DATA & AI</span><i>✦</i>
+      <span>UI / UX</span><i>✦</i>
+      <span>DIGITAL GROWTH</span><i>✦</i>
+      <span>TECHNOLOGY CONSULTING</span><i>✦</i>
+      <span>SOFTWARE DEVELOPMENT</span><i>✦</i>
+      <span>WEB SOLUTIONS</span><i>✦</i>
+      <span>DATA & AI</span><i>✦</i>
+      <span>UI / UX</span><i>✦</i>
+      <span>DIGITAL GROWTH</span><i>✦</i>
+      <span>TECHNOLOGY CONSULTING</span><i>✦</i>
+      <span>SOFTWARE DEVELOPMENT</span><i>✦</i>
+      <span>WEB SOLUTIONS</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why" id="why">
+    <div class="container">
+      <span class="section-eyebrow reveal">WHY AUSPIFY</span>
+      <h2 class="section-title reveal">
+        Why Choose <span class="gradient-text">Auspify?</span>
+      </h2>
+      <p class="section-sub reveal">
+        A structured learning environment designed to help students develop
+        practical skills through guided activities, feedback, and
+        career-focused preparation.
+      </p>
+
+      <div class="why-grid">
+        <article class="why-card reveal tilt">
+          <div class="why-card-inner">
+            <span class="card-num">01</span>
+            <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Structured Learning</h3>
+            <p>Defined activities, exercises, and assignments that connect concepts with real application.</p>
+            <div class="card-hover-glow"></div>
+          </div>
+        </article>
+
+        <article class="why-card reveal tilt">
+          <div class="why-card-inner">
+            <span class="card-num">02</span>
+            <div class="card-icon"><i class="fas fa-clipboard-list"></i></div>
+            <h3>Clear Process</h3>
+            <p>Program requirements, expectations, and completion criteria communicated upfront.</p>
+            <div class="card-hover-glow"></div>
+          </div>
+        </article>
+
+        <article class="why-card reveal tilt">
+          <div class="why-card-inner">
+            <span class="card-num">03</span>
+            <div class="card-icon"><i class="fas fa-comments"></i></div>
+            <h3>Guidance & Feedback</h3>
+            <p>Structured guidance to help improve your understanding and practical work.</p>
+            <div class="card-hover-glow"></div>
+          </div>
+        </article>
+
+        <article class="why-card reveal tilt">
+          <div class="why-card-inner">
+            <span class="card-num">04</span>
+            <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Career Readiness</h3>
+            <p>Communication, portfolio, resume, and interview readiness support.</p>
+            <div class="card-hover-glow"></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" id="process">
+    <div class="container">
+      <span class="section-eyebrow reveal">HOW IT WORKS</span>
+      <h2 class="section-title reveal">
+        Your <span class="gradient-text">Internship Journey</span>
+      </h2>
+      <p class="section-sub reveal">
+        Follow a clear, structured process from domain selection to completion.
+      </p>
+
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-line"></div>
+          <div class="step-num">01</div>
+          <h3>Choose Domain</h3>
+          <p>Pick the area matching your goals.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-line"></div>
+          <div class="step-num">02</div>
+          <h3>Apply</h3>
+          <p>Complete the application form.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-line"></div>
+          <div class="step-num">03</div>
+          <h3>Get Details</h3>
+          <p>Receive program info + timeline.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-line"></div>
+          <div class="step-num">04</div>
+          <h3>Complete Tasks</h3>
+          <p>Work on practical assignments.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">05</div>
+          <h3>Get Certified</h3>
+          <p>Receive your completion certificate.</p>
+        </div>
+      </div>
+
+      <div class="loop-row reveal">
+        <span class="loop-pill"><b>01</b> LEARN</span>
+        <span class="loop-pill"><b>02</b> PRACTICE</span>
+        <span class="loop-pill"><b>03</b> IMPROVE</span>
+        <span class="loop-pill"><b>04</b> GROW</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOMAINS ===== -->
+  <section class="domains" id="domains">
+    <div class="container">
+      <span class="section-eyebrow reveal">EXPLORE DOMAINS</span>
+      <h2 class="section-title reveal">
+        Build skills. <span class="gradient-text">Shape future.</span>
+      </h2>
+      <p class="section-sub reveal">
+        Explore our technology domains and gain practical experience.
+      </p>
+
+      <div class="domain-grid">
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">01</span>
+          <i class="fas fa-python d-icon"></i>
+          <h3>Python</h3>
+          <p>Programming & Dev</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">02</span>
+          <i class="fab fa-java d-icon"></i>
+          <h3>Java</h3>
+          <p>Programming & Dev</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">03</span>
+          <i class="fas fa-layer-group d-icon"></i>
+          <h3>Full Stack</h3>
+          <p>HTML5 · CSS3 · JS</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">04</span>
+          <i class="fab fa-react d-icon"></i>
+          <h3>React</h3>
+          <p>Modern Frontend</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">05</span>
+          <i class="fab fa-node-js d-icon"></i>
+          <h3>Node.js</h3>
+          <p>Backend Development</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">06</span>
+          <i class="fas fa-mobile-screen d-icon"></i>
+          <h3>Flutter</h3>
+          <p>Mobile Apps</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">07</span>
+          <i class="fas fa-chart-line d-icon"></i>
+          <h3>Data Science</h3>
+          <p>Analytics & ML</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+        <a href="#" class="domain-card reveal tilt">
+          <span class="d-num">08</span>
+          <i class="fas fa-palette d-icon"></i>
+          <h3>UI / UX</h3>
+          <p>Design & Experience</p>
+          <i class="fas fa-arrow-right d-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <span class="section-eyebrow reveal">INTERN TESTIMONIALS</span>
+      <h2 class="section-title reveal">
+        What Our <span class="gradient-text">Interns Say</span>
+      </h2>
+
+      <div class="testimonial-grid">
+        <article class="t-card reveal tilt">
+          <div class="t-inner">
+            <i class="fas fa-quote-left t-quote"></i>
+            <p>“I gained practical exposure to ML fundamentals through project-based tasks.”</p>
+            <div class="t-head">
+              <div class="t-avatar">SC</div>
+              <div>
+                <h4>SILAMBARASAN C</h4>
+                <span>ML Intern</span>
+              </div>
+              <i class="fas fa-circle-check t-verified"></i>
+            </div>
+          </div>
+        </article>
+
+        <article class="t-card reveal tilt">
+          <div class="t-inner">
+            <i class="fas fa-quote-left t-quote"></i>
+            <p>“Improved my Python, Pandas, and visualization skills working on real datasets.”</p>
+            <div class="t-head">
+              <div class="t-avatar">SS</div>
+              <div>
+                <h4>Sudarshini Sri V</h4>
+                <span>Data Analysis Intern</span>
+              </div>
+              <i class="fas fa-circle-check t-verified"></i>
+            </div>
+          </div>
+        </article>
+
+        <article class="t-card reveal tilt">
+          <div class="t-inner">
+            <i class="fas fa-quote-left t-quote"></i>
+            <p>“Understood data preprocessing and how analytical techniques apply in real life.”</p>
+            <div class="t-head">
+              <div class="t-avatar">AT</div>
+              <div>
+                <h4>Aarush Tyagi</h4>
+                <span>Data Science Intern</span>
+              </div>
+              <i class="fas fa-circle-check t-verified"></i>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <span class="section-eyebrow reveal">FAQ</span>
+      <h2 class="section-title reveal">
+        Questions? <span class="gradient-text">Answered.</span>
+      </h2>
+
+      <div class="faq-list">
+        <details class="faq-item reveal" open>
+          <summary>
+            <span>Is the internship online?</span>
+            <i class="fas fa-plus"></i>
+          </summary>
+          <p>Yes. Our internships are conducted online, allowing remote participation.</p>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>How many tasks must I complete?</span>
+            <i class="fas fa-plus"></i>
+          </summary>
+          <p>Six tasks are assigned, and any four must be completed.</p>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>Will I get a certificate?</span>
+            <i class="fas fa-plus"></i>
+          </summary>
+          <p>Eligible participants who complete the requirements receive a completion certificate.</p>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>What domains are available?</span>
+            <i class="fas fa-plus"></i>
+          </summary>
+          <p>Web, Python, Java, Data Science, AI/ML, UI/UX, and more.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="cta-box reveal">
+        <div class="cta-glow"></div>
+        <span class="section-eyebrow">READY TO LAUNCH?</span>
+        <h2>Ready to <span class="gradient-text">Launch Your Career?</span></h2>
+        <p>Build practical skills and take the next step toward your goals.</p>
+        <div class="hero-buttons center">
+          <a href="#" class="btn btn-primary btn-large shine">
+            <i class="fas fa-rocket"></i>
+            <span>Get Started Free</span>
+          </a>
+          <a href="#" class="btn btn-outline btn-large">
+            <i class="fas fa-headset"></i>
+            <span>Contact Support</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-icon"><i class="fas fa-cube"></i></span>
+          <span class="logo-text">AUSPIFY</span>
+        </a>
+        <p>Bring Future Through Tech.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#why">Why Us</a>
+        <a href="#process">Process</a>
+        <a href="#domains">Domains</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2026 AUSPIFY Technologies. All rights reserved.</p>
+      <a href="#home" class="scroll-top">
+        Scroll to Top <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    const toggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      toggle.classList.toggle('open');
+    });
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+        navLinks.classList.remove('active');
+        toggle.classList.remove('open');
+      }
+    }));
+
+    // Scroll reveal
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Counter
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const el = e.target;
+          const target = +el.dataset.count;
+          let cur = 0;
+          const step = Math.max(1, Math.ceil(target / 40));
+          const t = setInterval(() => {
+            cur += step;
+            if (cur >= target) { cur = target; clearInterval(t); }
+            el.textContent = cur + '+';
+          }, 25);
+          counterObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
+    // Cursor glow
+    const glow = document.querySelector('.cursor-glow');
+    document.addEventListener('mousemove', (e) => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top = e.clientY + 'px';
+    });
+
+    // 3D tilt
+    document.querySelectorAll('.tilt').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = `perspective(900px) rotateX(${y * -8}deg) rotateY(${x * 8}deg) translateY(-4px)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+      });
+    });
+  </script>
+</body>
+</html>
